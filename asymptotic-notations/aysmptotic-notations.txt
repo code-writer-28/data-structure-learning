@@ -1,0 +1,31 @@
+Asymptotic Notations :- 
+1. Best Case 2. Average Case 3. Worst Case
+
+Best Case :- Constant things happens through out the function process will be considered as Best Case.
+
+Average Case :- function which goes linearly in all the conditions than that would be considered as Average Case 
+                for example :-
+                Sum of Arrays Elements in which we have odd and even indices, if the sum function will work linearly despite of odd/even indices and conditions then this will considered as Average Case.
+                      
+Worst Case :- the highest time taken by any function would be considered as Worst Case .
+
+
+And we always find out the worst case, what is the case where our algo will take maximum time,  only when we have different case only we can check the worst case...
+we required different considered to check the worst case.
+
+
+There are diferent Notations we have, to check the order of growth in terms of time taken / space by an algo :-
+1. Big O notation :-  represents the  exact bound or upper bound.
+
+2. Theta Notation :- represent the exact bound.
+
+3. Omega Notation :-  represent the exact or lower bound.
+
+
+Will discuss further for above written notations.
+
+
+
+
+
+
