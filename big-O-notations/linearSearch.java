@@ -28,3 +28,6 @@ class GFG {
 
 
 solution : - https://ide.geeksforgeeks.org/6l6NIj38eC
+
+Order of Growth :- 
+	f(n) = O(n).
