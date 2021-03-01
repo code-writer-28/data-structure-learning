@@ -1,0 +1,26 @@
+Big O  Notaion :- 
+
+Direct Way to find :-
+
+1. Ignore the Lower Order Term.
+
+2. Ignore leading constants.
+
+for ex :- f(n) = 3n^2 + logn + const.
+so Big O Notation for f(n) is, 
+f(n) = O(n^2).
+
+
+Definition :-
+if f(n) = O(g(n)), if there exist constants c and m such that f(n) <= c * g(n) for all n >= m.
+
+Let's say :- 
+f(n) = 2n + 3 so f(n) = O(n)
+now,
+  f(n) <= c * g(n)
+  2n + 3 <= c * n
+then, 
+  took c  as leading constant term + 1 which is 2 and add 1 in it so c = 3.
+  2n+3 <= 3n
+  so value represents the upper bound.
+
