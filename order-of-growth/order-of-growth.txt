@@ -1,0 +1,20 @@
+Order of Growth :- 
+Points to Remember :- 
+1. Order of Growth always measure where value -> infinite.(large input size)
+
+2. On comparing any functions, if one of the function taking more time than other, than more time taken function created with bad algorithm. that is called measuring of order of growth.
+    f(n) = n^2 + n + 6
+    g(n) = 2n + 5, where lim ->  infinite.
+    
+    for measuring purpose :-
+    lim(n) ->  infinite g(n) / f(n) = 0;
+    
+    Measurement :- 
+    1. Always taking highest ordering term from both the functions and divide both denominator and numerator by that term here highest order term is n^2;
+    
+Direct way to find out the order of growth :- 
+1. Ignore lower order terms.
+
+2. Ignore Leading Constants.
+
+const < loglogn < logn < n ^ 1/3 < n ^ 1/2 < n < n ^ 2 < n ^ 3 < n ^ 4 < 2 ^ n < n ^ n.
